@@ -1,0 +1,69 @@
+body {position: relative;
+    width: 1440px;
+    height: 1440px;
+    box-sizing: border-box;
+}
+.titulo{
+    position: absolute;
+    width: 135px;
+    height: 58px;
+    left: 675px;
+    top: 50px;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.Organon1{
+    position: absolute;
+    width: 283px;
+    height: 260px;
+    left: 140px;
+    top: 110px;
+} 
+.letras{
+    position: absolute;
+    width: 590px;
+    height: 153px;
+    left: 845px;
+    top: 280px;
+    letter-spacing: 1.5 px;
+    line-height: 5;
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.titulo2{
+    position: absolute;
+    width: 934px;
+    height: 58px;
+    left: 300px;
+    top: 780px;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.strong{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    border-radius: 80px;
+    left: 50px;
+    top: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.noiz{
+    position: absolute;
+    width: 630px;
+    height: 153px;
+    left: 821px;
+    top: 1080px;
+    letter-spacing: 1.5 px;
+    line-height: 2;
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Noto Sans', sans-serif;
+}

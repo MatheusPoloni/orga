@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="principio.css">
+    <title>ORGANON | Site de Organização</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="logo-type">
+        <a href="principio.html"><img src="organograma.png" alt="type"></a>
+        <div class="itens-rb">
+            <div class="alvo-btn"><a href="principio.html"><img src="metas.png" alt="flecha"></a></div>
+            <a href="#"> <button class="metas-btn"><strong><u>Metas</u></strong></button></a>
+            <br>
+            <div class="compras-btn"><a href="lista de compras.html"><img src="carrinho compras.png" alt="carrinho"></a></div>
+            <a href="lista de compras.html"> <button class="lista-btn">Lista de Compras</button></a>
+            <br>
+            <div class="calenda-btn"><a href="agenda.html"><img src="calendary.png" alt="tafera"></a></div>
+            <a href="agenda.html"> <button class="calendario-btn">Calendário</button></a>
+            <br>
+            <div class="anotacion-btn"><a href="anotação.html"><img src="anotations.png" alt="caderno"></a></div>
+            <a href="anotação.html"> <button class="anotacoes-btn">Anotações</button></a>
+            <br>
+            <div class="sobre-btn"><a href="sobre.html"><img src="çobreee.png" alt="interrogação"></a></div>
+            <a href="sobre.html"> <button class="çobire-btn">Sobre</button></a>
+            <br>
+            <div class="config-btn"><a href="index.html"><img src="sair.png" alt="engrenagem"></a></div>
+            <a href="index.html"> <button class="configuracoes-btn">Sair</button></a>
+        </div>
+        <div class="line">
+        </div>
+    </div>
+    <!--barra navegação-->
+    <h1 style="color: black;">Suas  Metas</h1>
+    <div class="content">
+        <div class="content--add-item">
+            <input type="text" id="input-new-task" placeholder="Escreva uma meta">
+            <button onclick="newTask()" id="btn-new-task" title="Clique aqui para adicionar uma nova task">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="content--body">
+            <ol id="to-do-list">
+            </ol>
+        </div>
+    </div>
+    <!--metas-->
+<script src="main.js"></script>
+
+</body>
+</html>

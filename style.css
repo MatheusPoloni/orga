@@ -1,0 +1,95 @@
+body{
+    position: absolute;
+    width: 1340px;
+    height: 1024px;
+    background: #FFFFFF;
+}
+.Organon1{
+    position: absolute;
+    height: 237px;
+    left: 50px;
+    right: 1100px;
+    bottom: 769px;
+}
+
+.login-btn{
+    position: absolute;
+    width: 10%;
+    height: 58px;
+    left: 1150px;
+    right: 65px;
+    bottom: 918px;
+    background: rgba(105, 65, 130, 0.5);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.Cadastro-btn{
+    position: absolute;
+    width: 12%;
+    height: 58px;
+    left: 930px;
+    bottom: 918px;
+    background: rgba(105, 65, 130, 0.5);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.Sobre-btn{
+    position: absolute;
+width: 10%;
+height: 58px;
+left: 819px;
+bottom: 918px;
+background: rgba(105, 65, 130, 0.5);
+font-family: 'Noto Sans', sans-serif;
+font-size: 26px;
+border-radius: 15px;
+border: none;
+cursor: pointer;
+}
+
+.animation{
+    position: absolute;
+width: 677px;
+height: 384px;
+left: 709px;
+top: 250px; 
+}
+
+.letras{
+    position: absolute;
+    width: 300px;
+    height: 140px;
+    left: 240px;
+    top: 280px;
+    font-family: 'Noto Sans', sans-serif;
+}
+@media only screen and (max-width: 950px){
+    .animation{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .Organon1{
+        display: none;
+    }
+    .letras > h1{
+        display: none;
+    }
+    .login-btn{
+        width: 90%;
+    }
+    .Cadastro-btn{
+        width: 90%;
+    }
+    .Sobre-btn{
+        width: 90%;
+    }
+}

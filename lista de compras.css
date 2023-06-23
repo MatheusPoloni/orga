@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient( -45deg,#b38add , #fff 100%);
+    background-size: -100% 450%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 50%;
+    /* border:1px solid red;*/
+    margin: auto auto;
+    border: transparent;
+
+  }
+  
+  input {
+    height: 120px;
+    font-size: 2rem;
+    width: 80%;
+    padding-left: 10%;
+
+  }
+  
+  button.add {
+    width: 20%;
+    cursor: pointer;
+    background: #7420a8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 120px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 22px;
+  }
+  
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    /* border:1px solid blue;*/
+    padding-top: 40px;
+  }
+  
+  .item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 80px;
+    width: 50%;
+    box-shadow: 0 0 20px #ccc;
+    margin-bottom: 2%;
+    cursor: pointer;
+  }
+  
+  .item.clicado {
+    background: #d4f6d9;
+  }
+  
+  .item.clicado .item-nome {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .item-icone {
+    flex: 20%;
+    /* border:1px solid orangered;  */
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .item-nome {
+    flex: 55%;
+    /* border:1px solid deeppink;  */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .item-botao {
+    flex: 25%;
+    /* border:1px solid green;    */
+  }
+  
+  .delete {
+    background: #7420a8;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .mdi-check-circle {
+    color: green;
+  }
+  
+  footer {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background: black;
+    height: 40px;
+    width: 100%;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer i {
+    color: red;
+    font-size: 22px;
+  }
+.organon{
+  left: -500px;
+  top: 50px;
+}
